@@ -8,7 +8,7 @@ const testis = [
     {
       id: 12,
       src: "./ghassan2.jpg",
-      title: "ghassan",
+      title: "Ghassan Dabak",
       des: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     },
     {

@@ -13,6 +13,7 @@ import Login from "./components/pages/login/login";
 import Register from "./components/pages/register/register";
 import About from "./components/pages/about/about";
 import Profile from "./components/pages/profile/profile";
+import Featured from "./components/comps/homeComps/featured";
 
 function App() {
   let [logged, setLogged]=useState(localStorage.getItem('loggedUser'))
@@ -34,6 +35,7 @@ function App() {
         <Route path="/" element = {
           <Home>
             <Hero heading={true} hText="Let's Burn Some Wheels !" button={true} btnText = "Start Burning!" />
+            <Featured />
             <TestiContainer />
           </Home>} />
           <Route path="/shop" element={
