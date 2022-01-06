@@ -1,0 +1,90 @@
+@keyframes shake {
+    0% {
+      transform: translate(0px, 0px);
+    }
+    50% {
+      transform: translate(0px, 25%);
+    }
+    100% {
+      transform: translate(0px, 0px);
+    }
+  }
+
+
+
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.heroImg{
+    background-image: url("https://jetcars.co.nz/common/img/mustang_PNG19.png");
+    height: 65vh;
+    background-size:cover ;
+    background-position:center ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.heroImg h1{
+    animation: shake 1.3s;
+    animation-iteration-count: infinite;
+}
+
+.burnBtn{
+    background-color: silver;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 16px;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: 500ms;
+    width: 15%;
+}
+
+.burnBtn:hover{
+    background-color: white;
+    border-color: black;
+
+}
+
+.testiContainer{
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.testiSection h1{
+  display: flex;
+  justify-content: center;
+  margin: 75px auto;
+}
+
+.testimonials-item{
+  display: flex;
+  justify-content: center;
+}
+
+.testimonials-item img{
+width: 50%;
+border-radius: 4em;
+}
+
+.testimonials{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.testimonials-body{
+  margin: 0 auto;
+
+}
+@media only screen and (max-width:414px){
+  .testiContainer{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,1fr);
+  }
+}

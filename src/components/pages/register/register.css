@@ -1,0 +1,18 @@
+.regForm{
+    display: flex;
+    justify-content: center;
+}
+
+.regForm label{
+    font-size: 1.2em;
+
+}
+
+.regForm input{
+    border-style: none;
+    background-color: silver;
+    border-radius:15px;
+    color: black;
+    width: 16em;
+    height: 2em;
+}

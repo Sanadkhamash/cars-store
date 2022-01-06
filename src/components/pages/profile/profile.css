@@ -1,0 +1,36 @@
+span{
+    font-size:1.5em;
+}
+
+.infoUser{
+    flex-direction: column;
+    margin-left: 17%;
+    transition: 500ms;
+}
+
+.inputField{
+    font-size: 1.4em;
+    transition: 500ms;
+    
+}
+
+.inputField button{
+    margin-top: 15px;
+    width: 7.5%;
+}
+
+#cancel{
+    background-color: red;
+    color: white;
+    transition: 500ms;
+    margin-right: 5px;
+}
+
+#cancel:hover{
+    background-color: silver;
+    color: black;
+}
+
+.inputField input{
+    font-size: 1em;
+}

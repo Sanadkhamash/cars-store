@@ -1,0 +1,67 @@
+
+.car-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shop_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    width: 85%;
+}
+
+.shop_img img{
+    width: 65%;
+    height: 25vh;
+    transition: 500ms;
+}
+
+.shop_img img:hover{
+    width:75%;
+    height:30vh;
+}
+
+.shopContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.shopCardsCont{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 4em;
+}
+
+.btns button{
+    background-color: silver;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 16px;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: 500ms;
+    margin-right: 5%;
+}
+
+.btns button:hover{
+    background-color: white;
+    border-color:black
+
+}
+
+@media only screen and (max-width:730px){
+    .shopCardsCont{
+        grid-template-columns: 1fr;
+        
+    }
+    .shop_img img{
+        width:80%;
+    }
+    .shop_img img:hover{
+        width: 100%;
+    }
+}
+

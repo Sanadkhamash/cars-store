@@ -1,0 +1,32 @@
+.loginContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+
+.loginContainer p{
+    font-size: 1.5em;
+}
+
+.inputField input{
+    border-style: none;
+    background-color: silver;
+    border-radius:15px;
+    color: black;
+    width: 16em;
+    height: 2em;
+}
+
+.loginBtn button{
+    width: 35% ;
+    margin-top: 20px;
+}
+
+.already{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
